@@ -24,3 +24,5 @@ Download the application “straitstimes” from apple store or from google play
  - CSS selectors and xpaths 
  - Maven 
  - GIT
+
+![Mobile challenge with Cucumber test run](https://user-images.githubusercontent.com/25843579/36344184-6516f90a-143c-11e8-9d68-3e28d3a9bfaf.png)

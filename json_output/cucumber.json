@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13361013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LatestArticleTest.beforeTest()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login and view latest article",
+        "description": "",
+        "id": "login-and-view-latest-article;login-and-view-latest-article;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9413904275,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user already launched straitstimes application",
+            "match": {
+              "location": "LatestArticleTest.user_already_launched_straitstimes_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14198291861,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open drawer menu",
+            "match": {
+              "location": "LatestArticleTest.user_open_drawer_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1031673648,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "tap on LOGIN button",
+            "match": {
+              "location": "LatestArticleTest.tap_on_LOGIN_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13084518935,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter \"wijerathna.nilmi@gmail.com\" and \"Test1234\" tap on continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wijerathna.nilmi@gmail.com",
+                  "offset": 7
+                },
+                {
+                  "val": "Test1234",
+                  "offset": 40
+                }
+              ],
+              "location": "LatestArticleTest.enter_and_tap_on_continue_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5491113255,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user has logged in successfully",
+            "match": {
+              "location": "LatestArticleTest.verify_user_has_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6271738322,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "tap on latest tab and tap on first article",
+            "match": {
+              "location": "LatestArticleTest.tap_on_latest_tab_and_tap_on_first_article()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4399297691,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that article loading sucessfully with image/video",
+            "match": {
+              "location": "LatestArticleTest.verify_that_article_loading_sucessfully_with_image_video()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login and view latest article",
+    "description": "",
+    "id": "login-and-view-latest-article",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/straitstimes/mobiletest/features/Mobile.feature"
+  }
+]

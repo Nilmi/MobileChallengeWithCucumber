@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.903899">
+<testcase classname="Login and view latest article" name="Login and view latest article" time="53.903899">
+<system-out><![CDATA[Given user already launched straitstimes application........................passed
+Then user open drawer menu..................................................passed
+Then tap on LOGIN button....................................................passed
+Then enter "wijerathna.nilmi@gmail.com" and "Test1234" tap on continue button.passed
+Then verify user has logged in successfully.................................passed
+Then tap on latest tab and tap on first article.............................passed
+Then verify that article loading sucessfully with image/video...............passed
+]]></system-out>
+</testcase>
+</testsuite>
